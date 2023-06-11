@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react'
+import Link from 'next/link'
 
 export default function Error404() {
   return (
@@ -27,8 +28,8 @@ export default function Error404() {
           Uh-oh!
         </h1>
 
-        <p class="mt-4 text-gray-500">We can't find that page.</p>
-        <a
+        <p class="mt-4 text-gray-500">We can&apos;t find that page.</p>
+        <Link
           class="mt-4 group relative inline-block focus:outline-none focus:ring"
           href="/"
         >
@@ -37,8 +38,8 @@ export default function Error404() {
           <span class="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold uppercase tracking-widest">
             GoBack Home
           </span>
-        </a>
+        </Link>
       </div>
     </div>
-  );
+  )
 }
